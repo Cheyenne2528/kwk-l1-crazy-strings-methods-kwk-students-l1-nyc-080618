@@ -1,9 +1,7 @@
 # write your method here
 
 def crazy_strings(yes,no)
-  puts #{yes}.reverse.upcase
-  puts #{no}.swapcase.gsub("s", "z")
-  puts 
+  yes = yes.reverse.upcase
+  no = no.swapcase.gsub("s", "z")
+ return "#{yes} #{no}"
 end
-
-crazy_strings
